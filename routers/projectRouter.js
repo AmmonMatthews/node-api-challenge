@@ -58,7 +58,7 @@ router.get("/:id/actions", (req, res) => {
             res.status(404).json({ error: "actions could not be found."})
           })
 })
-
+// Tested
 router.put('/:id', (req, res) => {
     const { id } = req.params
     const updatedP = req.body
@@ -73,7 +73,7 @@ router.put('/:id', (req, res) => {
           })
 
 } )
-
+// Tested
 router.delete('/:id', (req, res) => {
     const { id } = req.params
 
